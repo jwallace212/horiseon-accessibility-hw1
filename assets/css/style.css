@@ -42,11 +42,24 @@ header {
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    display: flex;
 }
+
+nav ul {
+    list-style-type: none;
+    display: inline;
+    padding: 0 0 0 15px;
+    float: right;
+    margin-top: -25px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    padding: 5px 15px;
+}
+
 
 .hero {
     height: 800px;
